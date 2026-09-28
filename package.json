@@ -1,0 +1,15 @@
+{
+  "name": "scuatify-trending-engine",
+  "version": "1.0.0",
+  "description": "Motor de tendencias de Scuatify (servicio contenerizado)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.24.4"
+  }
+}
